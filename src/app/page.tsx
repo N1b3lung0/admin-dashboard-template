@@ -1,6 +1,10 @@
+import NavBar from "@/app/ui/navbar/navbar";
 const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <>
+      <NavBar />
+      <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    </>
   );
 };
 
